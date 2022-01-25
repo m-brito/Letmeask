@@ -16,4 +16,3 @@ const {getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword} = re
 const firebase = initializeApp(firebaseConfig);
 export const database = getDatabase(firebase);
 export const auth = getAuth(firebase);
-

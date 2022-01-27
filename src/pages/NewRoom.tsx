@@ -9,7 +9,7 @@ import { Button } from "../components/Button";
 // import { useAuth } from "../hooks/useAuth";
 
 export function NewRoom() {
-  // const { user } = useAuth();
+  // const { user, signInWithGoogle } = useAuth();
 
   return (
     <div id="page-auth">
